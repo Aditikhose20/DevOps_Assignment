@@ -1,4 +1,4 @@
-# Dev_Ops_assignment
+# DevOps_assignment
 Explanation of Dockerfile instructions :-
 FROM mysql:latest
 ENV MYSQL_ROOT_PASSWORD 123
