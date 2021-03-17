@@ -1,7 +1,7 @@
-from mysql:latest
+FROM mysql:latest
 ENV MYSQL_ROOT_PASSWORD 123
-ENV MYSQL_DATABASSE pucsdSudents
-ENV MYSQL_USER aditi
-ENV MYSQL_PASSWORD 1234
-ADD db.sql/docker-entrypoint-initdb.d
+ENV MYSQL_DATABASE pucsdStudents
+ENV MYSQL_USER Aditi
+ENV MYSQL_PASSWORD pucsd
+ADD test.sql /docker-entrypoint-initdb.d
 EXPOSE 3306
